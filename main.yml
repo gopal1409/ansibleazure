@@ -5,8 +5,8 @@
   tasks:
   - name: Create a Resource Group in azure. 
     azure_rm_resourcegroup:
-    name: myResourceGroup
-    location: westus
-    tags:
+      name: myResourceGroup
+      location: westus
+      tags:
         testing: testing
         
