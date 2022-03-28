@@ -4,6 +4,9 @@
   connection: local 
   tasks:
   - name: Create a Resource Group in azure. 
-    azurerm_rm_resourcegroup:
-      name: myResourceGroup
-      location: eastus
+    azure_rm_resourcegroup:
+    name: myResourceGroup
+    location: westus
+    tags:
+        testing: testing
+        
